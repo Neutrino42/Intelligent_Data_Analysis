@@ -43,15 +43,15 @@ There are 9 attributes in the data set that contribute to classification, obviou
 
 As shown in the figure, the first two eigenvalues can account for 53.1% of the credibility and the first three can represent 71.0%. The data can be projected onto a 2-D or 3-D space, whose axis are the eigenvectors. The projections are shown in **Figure 2** and **Figure 3**.
 
-![/Users/Nann/Documents/MATLAB/glass_pca/eigenvalues_pca.jpg](/Users/Nann/Documents/MATLAB/glass_pca/eigenvalues_pca.jpg)
+![eigenvalues_pca.jpg](resources/eigenvalues_pca.jpg)
 
 **Figure 1.** Eigenvalues and cumulative eigenvalues.
 
-![/Users/Nann/Documents/MATLAB/glass_pca/2d_projection.jpg](/Users/Nann/Documents/MATLAB/glass_pca/2d_projection.jpg)
+![2d_projection.jpg](resources/2d_projection.jpg)
 
 **Figure 2.** Red markers for building windows (‘*’ for float-processed, ‘o’ for non-float-processed), cyan for vehicle windows, blue for containers, black for tableware, green for headlamps.
 
-![/Users/Nann/Documents/MATLAB/glass_pca/3d_projection.jpg](/Users/Nann/Documents/MATLAB/glass_pca/3d_projection.jpg)
+![3d_projection.jpg](resources/3d_projection.jpg)
 
 **Figure 3.** Label scheme is the same as in Figure 2.
 
@@ -61,11 +61,7 @@ To find out the meaning of eigenvectors and what they mean, I examined the compo
 
  
 
- 
-
-​    Eigenvector 1                            Eigenvector 2                                              Eigenvector 3
-
-![img](cid:clip_image011.png) ![img](cid:clip_image013.png) ![img](cid:clip_image015.png)
+![img](resources/tables.jpg)
 
 **Table 1.** Eigenvector ordered in descending absolute eigenvalues **(**RI for Refraction Index).
 
@@ -79,9 +75,10 @@ On the other hand, the 2-D projection in **Figure 2** shows that there are some 
 
 If we plot RI and Ca, RI and Mg in x-y planes, the result will be like in **Figure 4** and **5**. They are not so intuitive as in PCA.
 
-![/Users/Nann/Documents/MATLAB/glass_pca/RI_Ca_xyProjection.jpg](/Users/Nann/Documents/MATLAB/glass_pca/RI_Ca_xyProjection.jpg)**Figure 4.** RI as x axis, Ca as y axis.
+![RI_Ca_xyProjection.jpg](resources/RI_Ca_xyProjection.jpg)
+**Figure 4.** RI as x axis, Ca as y axis.
 
-![/Users/Nann/Documents/MATLAB/glass_pca/RI_Mg_xyProjection.jpg](/Users/Nann/Documents/MATLAB/glass_pca/RI_Mg_xyProjection.jpg)
+![RI_Mg_xyProjection.jpg](resources/RI_Mg_xyProjection.jpg)
 
 **Figure 5.** RI as x axis, Mg as y axis.
 
@@ -95,7 +92,7 @@ In Wikipedia, the float glass is described as follows: Float glass is a sheet of
 
  
 
-![/Users/Nann/Documents/MATLAB/glass_pca/float_PCA.jpg](/Users/Nann/Documents/MATLAB/glass_pca/float_PCA.jpg)
+![float_PCA.jpg](resources/float_PCA.jpg)
 
 **Figure 6.** Float (red, ‘*’ for building windows and ‘o’ for vehicle windows) and non-float (blue), projected on eigenvector 1 and 2.
 
@@ -113,11 +110,11 @@ The map was initialized to be 25*17 in size, with each node’s z-component 0. A
 
  
 
-![/Users/Nann/Documents/MATLAB/glass_pca/SOM%203d.jpg](/Users/Nann/Documents/MATLAB/glass_pca/SOM%203d.jpg)
+![SOM%203d.jpg](resources/SOM%203d.jpg)
 
 **Figure 7.**
 
-![map.jpg](/Users/Nann/Documents/MATLAB/glass_pca/map.jpg)
+![map.jpg](resources/map.jpg)
 
 **Figure 8.**
 
